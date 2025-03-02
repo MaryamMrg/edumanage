@@ -35,7 +35,6 @@ public void CreateStudent(Student student){
 }
 public  List<Student> getallStudents(){
     List<Student> studentlist = new ArrayList<>();
-    System.out.println("hhhh");
     String sql ="select *from etuds";
     try(Statement stmt = connection.createStatement(); ResultSet res = stmt.executeQuery(sql)){
         while (res.next()) {

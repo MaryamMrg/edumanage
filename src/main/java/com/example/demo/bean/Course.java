@@ -6,6 +6,10 @@ public class Course {
 
     public Course() {}
 
+    public Course(String coursename) {
+        this.coursename = coursename;
+    }
+
     public Course(int courseid, String coursename) {
         this.courseid = courseid;
         this.coursename = coursename;

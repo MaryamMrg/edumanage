@@ -15,7 +15,7 @@ public class Course {
         return courseid;
     }
 
-    public void setCourseid(int courseid) {
+    public  void setCourseid(int courseid) {
         this.courseid = courseid;
     }
 
